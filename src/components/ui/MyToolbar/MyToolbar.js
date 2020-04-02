@@ -11,6 +11,7 @@ import Avatar from '@material-ui/core/Avatar';
 
 import UnfoldMoreIcon from '@material-ui/icons/UnfoldMore';
 import UnfoldLessIcon from '@material-ui/icons/UnfoldLess';
+import NavigationBackButton from "./NavigationBackButton";
 
 
 
@@ -52,6 +53,7 @@ const MyToolbar = withStyles(styles)(
                     >
                         <MenuIcon/>
                     </IconButton>
+                    <NavigationBackButton/>
                     <Typography
                         variant='h5'
                         color='inherit'

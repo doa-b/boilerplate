@@ -17,7 +17,14 @@ IT contains all the basic code for use as a templete for future react projects. 
 
 # Lazy loading
 
-## USAGE: Clone it to a new repo:
+## USAGE: import it to a new repo
+create new repo
+at the bottom select: "import code" from another repository
+select the repo you want to copy
+git clone it to your local drive
+
+
+## USAGE: Clone it to a new repo (Legacy):
 git clone https://github.com/userName/Repo New_Repo  
 cd New_Repo  
 git remote set-url origin https://github.com/userName/New_Repo  
